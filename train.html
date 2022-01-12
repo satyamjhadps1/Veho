@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <title>Book Train By Veho</title>
+    <link rel="stylesheet" href="train.css">
+    <link rel="stylesheet" href="veho.css">
+</head>
+<body style="background-image:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0,0.6)),  url('train.jpg');">
+    <h5 class="point-imp">Indian Trains are only left please book fast</h5>
+    <h2 class="header">Book Train:</h2>
+    
+     <div class="container">
+        <input type="text" class="form-control t-input" placeholder="From" id="from"><input type="text" class="form-control t-input" id="to" placeholder="To">
+        <br>
+        <br>
+        <br>
+        <input type='date' class="form-control t-input" id="date">
+        <input type="time" class="form-control t-input" id="time">
+        <br>
+        <br>
+        <br>
+        <center>
+        <button class="btn btn-primary" onclick="search()">Search</button>
+        </center>
+    </div>
+    <br>
+    <br>
+<h5 class="point-imp">Remember the pnr it may be used by us to verify you</h5>
+    <div id="output">
+        <br>
+        <h5 class="point-imp">Your Trains will appear here:</h5>
+        <br>
+        
+    </div>
+    <script src="train.js"></script>
+</body>
+</html>

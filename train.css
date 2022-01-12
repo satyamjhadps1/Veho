@@ -1,0 +1,30 @@
+.t-input{
+    background: transparent;
+    color: white;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: inline!important;
+    float: left;
+}
+.t-input::placeholder{
+    color: white;
+}
+.t-input:hover{
+    cursor: text;
+}
+#output{
+    width: 1380px;
+    background-color: gainsboro;
+}
+
+.result{
+    border: 1px solid #e35700;
+}
+.result:hover{
+    cursor: pointer;
+    background-color: #A8FA5D;
+}
+.container{
+    display: inline;
+}

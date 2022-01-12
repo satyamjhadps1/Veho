@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="Login.css">
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+  <div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Veho</h2>
+        </div>
+  
+        <div class="menu">
+            <ul>
+                <li><a onclick="home()">HOME</a></li>
+            </ul>
+        </div>
+  
+        <div class="search">
+            <input class="srch" type="search" placeholder="Type To Search">
+            <button class="btn">Search</button>
+        </div>
+  
+    </div> 
+    <div class="content">
+            <div class="form">
+                <input type="number" id="user_no_login" placeholder="Enter Phone Number Here">
+                <input type="email" placeholder="Enter Email Here" id="user_email_login">
+                <input type="password" placeholder="Enter Password Here" id="user_password_login">                    
+                <button class="btnn" onclick="loginuser()">Sign In</button>
+  
+                <p class="link">Don't Have an account?<br>
+                <a onclick="register()" id="lik">Sign Up </a> here</a></p>
+                <p class="liw">Sign In with</p>
+  
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+  
+            </div>
+                </div>
+            </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        
+        <script src="Login.js"></script>
+           
+</body>
+</html>

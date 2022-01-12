@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mate&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="veho.css">
+    <title>Veho</title>
+</head>
+<body onload="loaded()">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div style="background-color: #98ceed;padding-top: 30px; padding-bottom: 30px;">
+        <h3 id="welcomeuser">Welcome-SatyamJha</h3>
+        
+      </div><br>
+      <br>
+        <button class="btn btn-success" onclick="profile()">Profile</button>
+        <br>
+        <br>
+        <div class="hiddendiv" id="divhidden">
+            <a href="javascript:void(0)" onclick="closeprofile()" class="closebtn">×</a>
+        <label id="name" class="label-profile">1</label>
+        <br>
+        <br>
+        <label id="phoneno" class="label-profile">1</label>
+        <br>
+        <br>
+        </div>
+      </div>
+    <div class="main">
+      <nav class="navbar-inverse" style="position:sticky;top:0;z-index: 99999; background-color: transparent;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"target="_blank"><img src="user.png" class="img_nav" onclick="openNav()" width="50"></a>
+        </div>
+    </div>
+      <center>
+      <div style="background-image: url(festival.png); height: 650px; width: 90%;"></div>
+      </center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section id="book">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="form-box">
+                    <center>
+                    <h1 class="header">Book Trains</h1>
+                  </center>
+                  
+                      <li class="point">Best Trains Of India</li>
+                      <br>
+                      <li class="point">Easy Payments</li>
+                      <br>
+                      <li class="point">Upto 40% discount on festivals</li>
+                      <br>
+                      <li class="point-imp">Vaccinated Only</li>
+                      <br>
+                      <li class="point">Free Proccesing</li>
+                      <br>
+                      <center>
+                      <button class="btn btn-success" onclick="train()">Search</button>
+                      </center>
+                </div>
+            </div>
+            <div class="item">
+            <div class="form-box">
+                <h3 class="new">Enhanced</h3><h1 class="header">Book Planes</h1>
+              
+                  <li class="point">Best Planes Of India</li>
+                  <br>
+                  <li class="point">Most Rated</li>
+                  <br>
+                  <li class="point">New Feature: Price Locker</li>
+                  <br>
+                  <li class="point"> Upto 50% discount on festivals</li>
+                  <br>
+                  <li class="point-imp">Vaccinated Only</li>
+                  <br>
+                  <center>
+                  <button class="btn btn-success" onclick="plane()">Search</button>
+                  </center>
+            </div>
+            </div>
+            <div class="item">
+               <div class="form-box">
+                    <center>
+                        <h3 class="new">NEW</h3> <h1 class="header">Book A Visit</h1>
+                  </center>
+                  
+                      <li class="point">Best Guides With Efficient Knowledge</li>
+                      <br>
+                      <li class="point">More Places in one visit</li>
+                      <br>
+                      <li class="point"> Upto 70% discount on festivals</li>
+                      <br>
+                      <li class="point">Covid Precautions Maintained, Vaccinated Guides</li>
+                      <br>
+                      <li class="point-imp">Vaccinated Only</li>
+                      <br>
+                      <center>
+                      <button class="btn btn-success" onclick="visit()">Search</button>
+                      </center>
+                </div>
+            </div>
+            <div class="item">
+                <div class="form-box">
+                    <center>
+                  <h1 class="header">Book Ships</h1>
+                  </center>
+                  
+                      <li class="point">Royal bookings</li>
+                      <br>
+                      <li class="point">Can cancel even at 1 minute before ship starts for journey</li>
+                      <br>
+                      <li class="point"> Upto 75% discount on festivals</li>
+                      <br>
+                      <li class="point-imp">Vaccinated Only</li>
+                      <br>
+                      <li class="point">Free Processing</li>
+                      <br>
+                      <center>
+                      <button class="btn btn-success" onclick="ship()">Search</button>
+                      </center>
+                </div>
+            </div>
+            <div class="item">
+                <div class="form-box">
+                    <center>
+                  <h1 class="header">Book Hotels</h1>
+                  </center>
+                  
+                      <li class="point">Royal Hotels</li>
+                      <br>
+                      <li class="point">Can book at AnyTime</li>
+                      <br>
+                      <li class="point"> Upto 80% discount on festivals</li>
+                      <br>
+                      <li class="point-imp">Vaccinated Only</li>
+                      <br>
+                      <li class="point">Less Time</li>
+                      <br>
+                      <center>
+                      <button class="btn btn-success" onclick="hotel()">Search</button>
+                      </center>
+                </div>
+            </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        </section>
+            <script src="veho.js"></script>
+</body>
+</html>

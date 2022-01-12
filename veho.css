@@ -1,0 +1,109 @@
+::placeholder{
+    color: #BAF882;
+    font-family: 'Mate SC', serif;
+  }
+  body {
+      font-family: "Lato", sans-serif;
+      background: rgb(134,237,154);
+      background-image: linear-gradient(114deg, rgba(134,237,154,1) 0%, rgba(121,172,232,1) 100%);
+    }
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: blue;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+ .sidebar .closebtn:hover{
+      cursor: pointer;
+      color: blue;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding-left: 20px;
+  }
+  .img_nav{
+    cursor: pointer;
+  }
+  .hiddendiv{
+      height: 100px;
+      width: 200px;
+    display: none;
+    transition: 0.9s;
+  }
+  .form-box{
+    width: 430px;
+    height: 480px;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    position: relative;
+    margin-bottom: 5% auto;
+    margin-right: 6% auto;
+    margin-left: 400px;
+    padding: 5px;
+    overflow: hidden;
+    border-width: 2.5px;
+    border-style:inset;
+    border-color: blue;
+    top: 30;
+    height: 400px;
+    
+}
+
+.header
+{
+	  color: #e35700;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 70px;   
+}
+.new{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.point{
+    font-family: 'Baloo Da 2', cursive;
+    color: green;
+}
+.point-imp{
+    font-family: 'Baloo Da 2', cursive;
+    color: red;
+}
+.line{
+    background-color: black;
+    height: 5px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+}

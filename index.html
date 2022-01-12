@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Baloo+Tammudu+2&family=Benne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:azure;">
+
+<header class="site-header clearfix" id="home">
+ <nav>
+  <div class="logo">
+   <h1>Veho</h1>
+  </div>
+  <div class="menu"> 
+   <ul>
+    <a href="#home">Home</a>
+    <a href="#About">About Veho</a>
+    <a href="#features">Features</a>
+    <a href="#public">Reviews</a>
+    <a href="#mytalk">What Our CEO says?</a>
+    <a href="#ourteam">Our Team</a>
+   </ul>
+  </div>
+ </nav>
+ <section>
+  <div> 
+  </div>
+  <center>
+  <div> 
+   <h2 class="welcome">Welcome</h2>
+  </div>
+  <button id="btn-login" onclick="login()">Login</button><button id="btn-register" onclick="register()">Register</button>
+</center>
+</section>
+</header>
+<section id="About">
+  <center>
+  <h1 class="head">About Veho</h1>
+  <br>
+  <div class="line"></div>
+  <br>
+  <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+</center>
+</section>
+<section id="features">
+  <center>
+    
+    <h1 class="head">Features</h1>
+    <br>
+    <div class="line"></div>
+    <div class="hero">      
+      <div class="row">
+          <div class="col">
+              <div class="shape">
+                 <i class="fa fa-briefcase bkg1"></i>
+                  <div class="inner-shape bkg1">
+                      <div class="content">
+                          <h2>Premium<br>Quality</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="shape">
+                 <i class="fa fa-user-o bkg2"></i>
+                  <div class="inner-shape bkg2">
+                      <div class="content">
+                          <h2>User<br>Support</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="shape">
+                 <i class="fa fa-handshake-o bkg3"></i>
+                  <div class="inner-shape bkg3">
+                      <div class="content">
+                          <h2>High<br>Scalability</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+      </center>
+    </section>
+    <section id="public">
+      <center>
+      <h1 class="head">Reviews</h1>
+      <br>
+      <div class="line"></div>
+    </center>
+    <br>
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="form-box">
+                  <center>
+                  <div class="list-group-item-warning review">
+                    <img src="person2.jpg" class="profo">
+                    <br>
+                    <br>
+                    <div class="cut">
+                      <p>"Best Of Best! Amazing I want you people to see it once"</p>
+                    </div>
+                  </div>
+                  </center>
+                </div>
+            </div>
+            <div class="item">
+            <div class="form-box">
+              <center>
+              <div class="list-group-item-warning review">
+                <img src="person3.jpg" class="profo">
+                <br>
+                <br>
+                <div class="cut">
+                  <p>"How can a booking web be so cool and simple?? Its amazing!!!!"</p>
+                </div>
+              </div>
+            </center>
+            </div>
+            </div>
+            <div class="item">
+               <div class="form-box">
+                 <center>
+                <div class="list-group-item-warning review">
+                  <img src="person4.jpg" class="profo">
+                  <br>
+                  <br>
+                  <div class="cut">
+                    <p>"Three Things to say : AMAZING AMAZING AMAZING"</p>
+                  </div>
+                </div>
+                </center>
+                </div>
+            </div>
+            <div class="item">
+                <div class="form-box">
+                  <center>
+                  <div class="list-group-item-warning review">
+                    <img src="person1.jpg" class="profo">
+                    <br>
+                    <br>
+                    <div class="cut">
+                      <p>"I loved It. Superb work by Veho. In future I hope it will be enhanced more."</p>
+                    </div>
+                  </div>
+                </center>
+                </div>
+            </div>
+            <div class="item">
+                <div class="form-box">
+                  <center>
+                  <div class="list-group-item-warning review">
+                    <img src="person5.jpg_fit=scale" class="profo">
+                    <br>
+                    <br>
+                    <div class="cut">
+                      <p>"Suprised By This, Didnt expect it to be so good but it went far away from my expectations.. Superb Work"</p>
+                    </div>
+                  </div>
+                      </center>
+                </div>
+            </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </section>
+    <center>
+    <h1 class="head">What Our CEO Says?</h1>
+    <div class="line"></div>
+    </center>
+<section id="mytalk">
+  <h1 class="parahead">❝</h1>
+  <p class="para">In my point of view, this project is the best among all other webs made by us. I had liked the fact that this has to book everything we need right now, It will help us in: not searching more, not paying more, getting a feel of a royal family etc. The things which I like in Veho: Its Name, Its Scheme, Its css, Its cleanliness, Its Data Storage. And its such a large project that took more than 4 weeks to get completed, Applaud for that. Our team wants you to enjoy this web, with all the features needed. It will get updated every year with new features. I want you people to make it the best book web on earth. Due to some issues it is launched 2 weeks after it was getting launched. Data storage increased by 20%. Prices lowered in festivals. New Feature Price Locker. New mode Book A Visit. We did everything we could do for you, please like our web.We have a target of 10000m likers, Hope that get's covered soon.Everything is best of best I hope you like it.. </p>
+  <h1 class="parahead" id="leftparahead">❞</h1>
+  <h3 id="name">-Satyam Jha, CEO</h3>
+</section>
+<center>
+  <h1>Our Team</h1>
+  <div class="line"></div>
+  </center>
+<section id="ourteam">
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="coder1.jpeg" alt="Team_image" style="border-radius:50%; width: 100px;">
+      </div>
+      <h3>Paul Doe</h3>
+      <p class="role">Senior UI Developer, Senior Test Analyst</p>
+      <p>Helped our team in devoloping ui, even in testing of our web. Great Support</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="Satyam Jha_DPS.jpg" alt="Team_image" style="border-radius:50%; width: 100px;">
+      </div>
+      <h3>Satyam Jha</h3>
+      <p class="role">CEO, Principal Javascript Devoloper</p>
+      <p>Handled the situations calmly whenever required, Maintained best membership among us, Ran through all the errors and mistakes and Financial help too.</p></div>
+      <br>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="coder2.jpg" alt="Team_image" style="border-radius:50%; width: 100px;">
+      </div>
+      <h3>Alex Wood</h3>
+      <p class="role">Styling Lead, Associate UI Devoloper</p>
+      <p>Gave soothing scheme for everything, helped in UI a lot. Great Support</p>
+      <br>
+    </div>
+    </div>
+</section>
+<center>
+<h2 style="color: grey;">Copyright©Veho.</h2>
+</center>
+<script src="main.js"></script>
+  </body>
+</html>
